@@ -1,15 +1,8 @@
 function readContents() {
-    var file;
-    var fileRoot;
-    var fileName = "data/contents.txt";
+    var file = "data/contents.txt";
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('title') & (window.location.pathname.toString().endsWith('/article.html'))) {
         return getArticle(urlParams.get("title"));
-    }
-    if (window.location.host == "127.0.0.1:5500") {
-        file = '../' + fileName;
-    } else {
-        file = window.location.host + "/wstrn-music-site/" + fileName;
     }
     console.log(file);
     var rawFile = new XMLHttpRequest();
