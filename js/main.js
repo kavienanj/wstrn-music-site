@@ -40,7 +40,7 @@ function buildCard(id, header, content, widget) {
 
     cardBody.setAttribute("id", "collapser" + id.toString());
     cardBody.setAttribute("aria-labelledby", "content" + id.toString());
-    cardBody.children[0].innerHTML = '<a href="/article.html?title=' + header + '">' + content + '</a>';
+    cardBody.children[0].innerHTML = '<a href="article.html?title=' + header + '">' + content + '</a>';
 
     return widget
 }
