@@ -1,26 +1,26 @@
 #Chapter One - Composers and their Compositions
-Baroque Period
-Classical Period
-Romantic Period
-Modern Period
-Jazz Music
-Activities
+Baroque Period|Johann Sebastian Bach,George Frideric Handel,Domenico Scarlatti,Antonio lucio Vivaldi
+Classical Period|
+Romantic Period|
+Modern Period|
+Jazz Music|
+Activities|
 #Chapter Two - Musical Instruments
-The Orchestra
-Brass Instruments
-String Instruments
-Keyboard Instruments
-Woodwinf Instruments
-Percussion Instruments
-Indian Musical Instruments
-Activities
+The Orchestra|
+Brass Instruments|
+String Instruments|
+Keyboard Instruments|
+Woodwinf Instruments|
+Percussion Instruments|
+Indian Musical Instruments|
+Activities|
 #Chapter Three - Musical Terms & Definitions
-Musical Dictionary
-Key Signatures
-#Chapter Four - Musical Types and Styles
-Form
-Types & Styles
+Musical Dictionary|
+Key Signatures|
+#Chapter Four - Musical Types and Styles|
+Form|
+Types & Styles|
 #Chapter Five - Songs
 #Chapter Six - Theoretical Techniques
-Ornaments
-The Science behind music
+Ornaments|
+The Science behind music|

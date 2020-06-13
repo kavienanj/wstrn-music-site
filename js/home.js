@@ -17,7 +17,9 @@ function getContentCards(body) {
             cardParentDoc.appendChild(buildTitleCard(text, cardDoc));
         } else {
             topicNo += 1;
-            cardParentDoc.appendChild(buildSubTitleCard(chapterNo, topicNo, text, body, cardDoc));
+            var title = text.split('|')[0];
+            var subtitles = text.split('|')[1].split(',');
+            cardParentDoc.appendChild(buildSubTitleCard(chapterNo, topicNo, title, subtitles, cardDoc));
         }
     }
     cardParentDoc.removeChild(cardParentDoc.children[0]);
@@ -51,7 +53,11 @@ function buildSubTitleCard(chapterNo, topicNo, header, content, widget) {
 
     cardBody.setAttribute("id", cardHeadControls);
     cardBody.setAttribute("aria-labelledby", cardHeadId);
-    cardBody.children[0].innerHTML = '<a href="article.html?title=' + header + '">' + content + '</a>';
+    var cardBodySubtitleContent = '<li><a href="article.html?title='+header+'">'+'View Page</a></li>';
+    for (var i = 0; i < content.length; i++) {
+        cardBodySubtitleContent += '<li><a href="article.html?title='+header+'#'+content[i]+'">'+content[i]+'</a></li>';
+    }
+    cardBody.children[0].innerHTML = cardBodySubtitleContent;
 
     return widget
 }
