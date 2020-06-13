@@ -8,6 +8,14 @@ body {
     background-color: #2D2D2D;
 }
 
+p {
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 1.5em;
+}
+
 .section {
     height: 600px;
 }
