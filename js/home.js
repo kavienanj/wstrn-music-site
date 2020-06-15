@@ -53,9 +53,12 @@ function buildSubTitleCard(chapterNo, topicNo, header, content, widget) {
 
     cardBody.setAttribute("id", cardHeadControls);
     cardBody.setAttribute("aria-labelledby", cardHeadId);
-    var cardBodySubtitleContent = '<li><a href="article.html?title='+header+'">'+'View Page</a></li>';
-    for (var i = 0; i < content.length; i++) {
-        cardBodySubtitleContent += '<li><a href="article.html?title='+header+'#'+content[i]+'">'+content[i]+'</a></li>';
+    var cardBodySubtitleContent = '<a class="ml-2" href="article.html?title='+header+'">'+'View Page</a><br/>';
+    if (content[0].length > 0) {
+        for (var i = 0; i < content.length; i++) {
+            cardBodySubtitleContent += '<a class="ml-2" href="article.html?title='+header+'#'+content[i]+'">'
+            +topicNo.toString()+"."+(i+1).toString()+"\t\t\t\t"+content[i]+'</a><br/>';
+        }
     }
     cardBody.children[0].innerHTML = cardBodySubtitleContent;
 
