@@ -63,3 +63,12 @@ a {
 .btn-link:hover {
     color: #2D2D2D;
 }
+
+.btn-nav {
+    color: white;
+}
+
+.btn-nav:hover {
+    color: white;
+    text-decoration: underline;
+}

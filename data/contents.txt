@@ -19,7 +19,7 @@ Activities 2|
 #Chapter Three - Musical Terms & Definitions
 Musical Dictionary|Musical Terms Definitions,Musical Dictionary
 Key Signatures|
-#Chapter Four - Musical Types and Styles|
+#Chapter Four - Musical Types and Styles
 Form|Binary Form AB Form,Ternary Form ABA Form,Rondo Form ABACADA Form,Air With Variations,Sonata Form 1st Movement Form
 Types and Styles|March,Waltz,Minuet,Opera,Oratorio,Overture,Concerto,Fugue,Prelude,Suite,Chamber Music,Popular POP Music
 #Chapter Five - Songs
