@@ -49,6 +49,13 @@ a {
     border-radius: 30px;
 }
 
+img {
+    max-height: 300px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
 .sectiontitle {
     border-left: 15px solid black;
     letter-spacing: 0.1em;
