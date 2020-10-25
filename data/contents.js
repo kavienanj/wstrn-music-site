@@ -27,7 +27,7 @@ var CHAPTERS = {
             'The Orchestra': []
         },
         {
-            'Brass Instruments': ['Trumpet', 'French Horn', 'Trombone', 'Clarinet', 'Tuba']
+            'Brass Instruments': ['Trumpet', 'French Horn', 'Trombone', 'Cornet', 'Tuba']
         },
         {
             'String Instruments': ['Violin', 'Viola', 'Violoncello', 'Double Bass', 'Banjo', 'Guitar', 'Lute', 'Harp', 'Mandolin']
