@@ -87,3 +87,8 @@ img {
 .navbar-brand:hover {
     color: white;
 }
+
+.welcome-div {
+    background-image: url(../assets/webbg.jpg);
+    background-size: cover;
+}
